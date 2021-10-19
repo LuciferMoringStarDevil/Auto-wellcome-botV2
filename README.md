@@ -11,4 +11,4 @@ Very Sempil Bot Auto Wellcome Bot V2
 - 🌱 I’m currently learning From Github
 - 💞️ I’m looking to collaborate on Big Company
 - 📫 How to reach me- [My Telegram](https://t.me/Lucifer_Devil_AD)
-[(https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LuciferMoringStarDevil/Auto-wellcome-botV2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LuciferMoringStarDevil/Auto-wellcome-botV2)
