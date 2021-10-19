@@ -1,0 +1,52 @@
+{
+    "name": "Auto Welcome BotV2",
+    "description": "iam Id Bot @AD_BOTZ",
+    "logo": "https://telegra.ph/file/f66ce896fde0af1cf3b53.jpg",
+    "keywords": [
+        "Telegram",
+        "Id",
+        "Bot"
+    ],
+    "website": "https://t.me/ADMOVEIAD",
+    "repository": "https://github.com/LuciferMoringStarDevil/Auto-wellcome-botV2",
+    "success_url": "https://t.me/AD_BOTZ_2",
+    "env": {
+        "API_ID": {
+            "description": "Your APP_ID From https://youtu.be/5eEsvLAKVc0 or @MT_MyTelegramOrg_Bot",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API_Hash From https://youtu.be/5eEsvLAKVc0 or @MT_MyTelegramOrg_Bot",
+            "value": ""
+        },
+        "APP_NAME": {
+            "description": "Enter Heroku App Name",
+            "value": "autowelcomebot",
+            "required": false
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "Your Bot Token From @MT_ID_Bot",
+            "value": ""
+        },
+        "WELCOME_TEXT": {
+            "description": "Set Your Welcome Text More Information Check Out Readme.md",
+            "value": "",
+            "required": false
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
